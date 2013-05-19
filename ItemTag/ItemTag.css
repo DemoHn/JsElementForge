@@ -1,0 +1,55 @@
+.ItemTag_Main{
+    position:relative;
+    float:left;
+    width:80px;
+    height:40px;
+    background-color:rgb(40,204,112);
+    z-index: 10;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #aaa;
+}
+.ItemTag_TextTag{
+    position:absolute;
+    cursor:default;
+    font-family: "微软雅黑",monospace;
+    font-size:17px;
+    color:white;
+    top:-3px;
+    left:0;
+}
+.ItemTag_WordTag{
+    position:absolute;
+    right:0;
+    bottom:-5px;
+    font-family: "微软雅黑",monospace;
+    font-size:16px;
+    color:rgb(158,226,182);
+    z-index:0;
+}
+.ItemTag_Input{
+    position:relative;
+    border:2px inherit solid;
+    float:left;
+    height:36px;
+    font-size:30px;
+    padding:0;
+    margin:0 0 0 10px;
+    font-family:"微软雅黑","Courier New",monospace;
+    color:rgba(0,0,0,0.5);
+}
+.ItemTag_Input:focus{
+    border:2px green solid;
+    border-radius: 2px;
+}
+
+/*plus_1 功能*/
+.ItemTag_Tri{
+    position:absolute;
+    float:left;
+    right:0;
+    top:0;
+    width:0;
+    height:0;
+    border:8px solid #000;
+    border-color:white white green green;
+}

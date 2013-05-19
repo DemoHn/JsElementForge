@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Readme</title>
+    <style type='text/css'>
+        .mark{
+            background: blue;
+            color:white;
+        }
+        .dir{
+            margin-left: 5%;
+            background: #bbb;
+            width:80%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>有关Hn元素库的说明</h3>
+    <p>2013-5-10</p>
+    <p>卢名川</p>
+    <p><i>DemoHn</i></p>
+    <p>为了将来的统一管理的方便，特此写下一个有关Hn元素库的文件规范。</p>
+    <ol>
+        <li>文件结构</li>
+        <p>我们将每一个元素都理解为项目。每一个元素都单独用一个文件夹来包裹。文件夹的名字就是这个项目的正式名称。 </p>
+        <p class='attention'>注意：这个“项目名称”一定要用英文来命名。</p>
+        <p>文件的结构目录如下表示：</p>
+        <div class='dir'>
+            <p>XXXXX (项目名称)</p>
+            <p>|---info.json<span class='mark'> 这个还在思考怎么做</span></p>
+            <p>|---readme.html  (有关这个项目的说明)</p>
+            <p>&nbsp;&nbsp;&nbsp;|---Code  (这个项目的源代码)</p>
+            <p>&nbsp;&nbsp;&nbsp;|---Element  (这个元素的正式内容，只把有用的标签写出来)</p>
+            <p>&nbsp;&nbsp;&nbsp;|---Source  (有关这个元素的其他所需要的内容，如图片等等)</p>
+            <p>&nbsp;&nbsp;&nbsp;|---Style  (有关控制这个元素的样式)</p>
+        </div>
+    </ol>
+</body>
+</html>
