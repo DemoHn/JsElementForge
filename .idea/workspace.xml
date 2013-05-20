@@ -18,7 +18,7 @@
     <file path="/upload_all.js" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1367520265868" ignored="false" />
     <file path="/readme.html" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1368982038584" ignored="false" />
     <file path="/AdjustFileInput.js" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369063518461" ignored="false" />
-    <file path="/UploadButton.css" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369064253807" ignored="false" />
+    <file path="/UploadButton.css" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369064429737" ignored="false" />
     <file path="/index.html" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369064341116" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UploadButton/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="488" selection-end="488" vertical-scroll-proportion="0.4982699">
+            <state line="17" column="22" selection-start="488" selection-end="488" vertical-scroll-proportion="-5.3333335">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadButton.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UploadButton.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UploadButton/Style/UploadButton.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+            <state line="36" column="19" selection-start="709" selection-end="709" vertical-scroll-proportion="0.65822786">
               <folding />
             </state>
           </provider>
@@ -83,8 +83,8 @@
         <option value="$PROJECT_DIR$/示例文件.html" />
         <option value="$PROJECT_DIR$/UploadButton/readme.html" />
         <option value="$PROJECT_DIR$/UploadButton/Code/AdjustFileInput.js" />
-        <option value="$PROJECT_DIR$/UploadButton/Style/UploadButton.css" />
         <option value="$PROJECT_DIR$/UploadButton/index.html" />
+        <option value="$PROJECT_DIR$/UploadButton/Style/UploadButton.css" />
       </list>
     </option>
   </component>
@@ -379,16 +379,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UploadButton/Style/UploadButton.css">
+    <entry file="file://$PROJECT_DIR$/UploadButton/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+        <state line="17" column="22" selection-start="488" selection-end="488" vertical-scroll-proportion="-5.3333335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UploadButton/index.html">
+    <entry file="file://$PROJECT_DIR$/UploadButton/Style/UploadButton.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="488" selection-end="488" vertical-scroll-proportion="0.4982699">
+        <state line="36" column="19" selection-start="709" selection-end="709" vertical-scroll-proportion="0.65822786">
           <folding />
         </state>
       </provider>
