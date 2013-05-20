@@ -1,24 +1,37 @@
 /*这是用来控制整个元素的CSS样式表*/
 .UploadButton{
+    position:relative;
+    float:right;
     margin:0;
     width:100px;
     height:200px;
-    background-color: green;
+    background-color: transparent;
     z-index:0;/*这里的0是相对于这个元素的*/
 }
 .FileSpan{
     width:100px; /*高度宽度等参数应该与上面的.UploadButton一样。*/
+                 /*这里没有办法使用％来标记宽度,因为这样会让标签撑开 */
     height:200px;
     z-index:1;
     overflow:hidden;
-    position:relative;
-    top:0;
-    left:0;
+    position:absolute;
+    top:0;      /*test*/
+    left:0;     /*just for test*/
 }
 .FileInput{
     height:200px;
-    font-size:24px;
+    font-size:50px;
     position:absolute;
-    left:-200px;
-    z-index:2;
+    left:0;
+    z-index:1;
+    opacity: 0;
+}
+/*绘制层*/
+.InfoLayer{
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:3;
+    opacity:1;
+    text-align:center;
 }
