@@ -13,51 +13,57 @@ var GetElementProperty=function(id,data_json){
     * (number) layer:这个UploadButton元素的层数
     * */
 
+    var regnum=/[0-9]+/;
     var requires={
         id:id,
         //系统参数
         SpanClass:"FileSpan",
-        FormFileClass:"FileInput"
+        FormFileClass:"FileInput",
+        //用户配置
+        DivHeight:"",
+        DivWidth:"" ,
+        SpanHeight:"",
+        SpanWidth:"",
+        FileFontSize:"",
+        FileHeight:"",
+        FileLeft:""
     };
-    //if(data_json!=undefind){
-        requires.height=data_json.height;
-        requires.width=data_json.width;
-  //  }
+
+    if(data_json!=null){
+        requires.DivHeight=data_json.height;
+        requires.DivWidth=data_json.width;
+    }
+    requires.SpanHeight=requires.DivHeight;
+    requires.SpanWidth=requires.DivWidth;
+    requires.FileFontSize=regnum.exec(requires.DivWidth)*0.7+"px";
+    requires.FileHeight=requires.DivHeight;
+
     return requires;
 };
 
-var DynamicRunning=function(requires){
+var DynamicAdjustment=function(requires){
     $("#"+requires.id).css(
         {
-            "height":requires.height,
-            "width":requires.width
+            "height":requires.DivHeight,
+            "width":requires.DivWidth
         });
     $("#"+requires.id+" ."+requires.SpanClass).css(
         {
-           "height":requires.height,
-           "width":requires.width
+           "height":requires.DivHeight,
+           "width":requires.DivWidth
         });
-    var regnum=/[0-9]+/;
-    var DivWidth=regnum.exec(requires.width);
     var cid=$("#"+requires.id+" ."+requires.FormFileClass);
     cid.css(
         {
-            "height":requires.height,
-            "fontSize":DivWidth*0.7+"px"
-        }
-    );
-    var OffsetWidth=regnum.exec(cid.css("width"));
-
-    cid.css(
-        {
-            "left":((-1)*(OffsetWidth)+DivWidth*1)+"px"
-
+            "height":requires.DivHeight,
+            "fontSize":requires.FileFontSize,
+            "float":"right"
         }
     );
 }
 
 //TODO 做为调试用，将来应该作为注释保留
 $(document).ready(function () {
-    DynamicRunning(GetElementProperty("DefaultIdentify",{height:'400px',width:'500px'}))
+    DynamicAdjustment(GetElementProperty("DefaultIdentify",{height:'400px',width:'500px'}))
 });
 

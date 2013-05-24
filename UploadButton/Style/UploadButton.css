@@ -21,7 +21,7 @@
 .FileInput{
     height:200px;
     font-size:50px;
-    position:absolute;
+    position:relative;
     left:0;
     z-index:1;
     opacity: 0;
@@ -35,4 +35,6 @@
     opacity:1;
     text-align:center;
     cursor:pointer;
+    background: deepskyblue;
+    word-break: break-all;
 }
