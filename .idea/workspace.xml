@@ -24,6 +24,7 @@
     <file path="/var/www/share/share/Tpl/default/Index/index.html" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369392301856" ignored="false" />
     <file path="/var/www/share/share/Tpl/default/Public/js/search_all.js" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369393301752" ignored="false" />
     <file path="/search_all.js" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1369393104676" ignored="false" />
+    <file path="/date.js" changelist="5ed4a401-1b0a-4209-8276-91ed83287a02" time="1374717705305" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,37 +43,7 @@
     <favorites_list name="JavaScript元素库" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UploadButton/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="-11.333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadButton.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UploadButton/Style/UploadButton.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="14" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdjustFileInput.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UploadButton/Code/AdjustFileInput.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="41" selection-start="1716" selection-end="1716" vertical-scroll-proportion="1.8778878">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -89,14 +60,14 @@
         <option value="$PROJECT_DIR$/UploadButton/index.html" />
         <option value="$PROJECT_DIR$/UploadButton/Style/UploadButton.css" />
         <option value="$PROJECT_DIR$/UploadButton/Code/AdjustFileInput.js" />
+        <option value="$PROJECT_DIR$/date/date.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="22" />
-    <option name="width" value="758" />
-    <option name="height" value="371" />
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -159,7 +130,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -170,7 +141,29 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript元素库" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript元素库" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript元素库" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -179,8 +172,8 @@
     <property name="last_opened_file_path" value="/var/www/share" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -210,13 +203,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="22" width="758" height="371" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22320117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -258,7 +251,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -369,31 +362,26 @@
         <state line="38" column="59" selection-start="981" selection-end="981" vertical-scroll-proportion="0.5927602" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/QSCproject/网络文化节/Code/adjust_Layer.js">
+    <entry file="file://$PROJECT_DIR$/UploadButton/Code/AdjustFileInput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5591716" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UploadButton/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="-11.333333">
-          <folding />
+        <state line="45" column="8" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.9635568">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UploadButton/Style/UploadButton.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+        <state line="26" column="14" selection-start="557" selection-end="557" vertical-scroll-proportion="0.44606414">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UploadButton/Code/AdjustFileInput.js">
+    <entry file="file://$PROJECT_DIR$/UploadButton/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="41" selection-start="1716" selection-end="1716" vertical-scroll-proportion="1.8778878">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="17" column="29" selection-start="494" selection-end="494" vertical-scroll-proportion="0.5167173">
+          <folding />
         </state>
       </provider>
     </entry>
